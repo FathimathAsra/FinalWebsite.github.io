@@ -1,0 +1,507 @@
+body {
+    font-family: 'Roboto';
+}
+
+.bg-overlay {
+    background: linear-gradient(rgba(108,149,166,.4), rgba(108,149,166,.4)), url(/images/shifaaz-shamoon-Rl9l9mL6Pvs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: auto;
+    max-width: 100%;
+}
+
+.bgoverlay-tours {
+    background: linear-gradient(rgba(108,149,166,.4), rgba(108,149,166,.4)), url(/images/mohamed-masaau-nfF5-G6cFwY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: auto;
+    max-width: 100%;
+}
+
+.bgoverlay-destinations {
+    background: linear-gradient(rgba(108,149,166,.4), rgba(108,149,166,.4)), url(/images/shifaaz-shamoon-qtbV_8P_Ksk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: auto;
+    max-width: 100%;
+}
+
+
+.csicon {
+    margin-left: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.t-white {
+    color: white;
+}
+
+.fluidbg {
+    background-color:#fcfcfc;
+    padding-bottom: 3%;
+}
+.acccard {
+    border: none;
+}
+
+.accordionheading {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+}
+
+.accordionheading:hover {
+    text-decoration: none;
+    color: #ffd32a;
+}
+
+.accordionheader {
+    background: transparent;
+}
+
+
+.destlefttext {
+    text-align: right;
+}
+
+.dv {
+    color: #ffd32a;
+    font-weight: 700;
+}
+
+.tours {
+    color: #707070;
+}
+
+
+
+
+
+.abouttext {
+    font-size: 2em;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: #707070;
+    font-weight: 300;
+    
+    
+}
+
+.quotemark {
+    margin-top: -200px;
+}
+
+.destinationheading {
+    color: #707070;
+    font-weight: 700;
+
+}
+
+
+.destinationlword {
+    color: #ffd32a;
+}
+
+.destinationpara {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+
+.nvtxt {
+    color: white;
+    font-weight: 500;
+}
+
+.accpara {
+    color: #707070;
+    font-size: 0.9em;
+}
+
+
+.hover:hover {
+    color: #ffd32a;
+    text-decoration: none;
+}
+
+.jumbomain {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.bcrumb {
+    background: transparent;
+    border: none;
+}
+
+.noml {
+    margin-left: -10px;
+  
+}
+
+.btext {
+    text-decoration: none;
+    color: white;
+}
+
+.btext:hover {
+    text-decoration: none;
+    color: #ffd32a;
+}
+
+.imgcustom1 {
+    background: linear-gradient(rgba(108,149,166,.4), rgba(108,149,166,.4)), url(images/Maldives-Felidhe-Vaavu-Atoll-Keyodhoo-Shipwreck-Snorkelling-Emily-Mikus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    height: 300px;
+}
+
+
+.imgcustom2 {
+    background: linear-gradient(rgba(108,149,166,.4), rgba(108,149,166,.4)), url(images/shifaaz-shamoon-p0Fvb9MvLAY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    height: 300px;
+}
+
+.imgcustom3 {
+    background: linear-gradient(rgba(108,149,166,.4), rgba(108,149,166,.4)), url(images/attr_1924_20190809124831.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    height: 300px;
+}
+
+.modalh {
+    font-weight: 900;
+
+}
+
+.modalspan {
+    color: #ffd32a;
+    font-weight: 900;
+}
+
+.imgcustom4 {
+    background: linear-gradient(rgba(108,149,166,.4), rgba(108,149,166,.4)), url(images/banana_reef.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    height: 300px;
+}
+
+
+.blogcover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(images/Maldives-Felidhe-Vaavu-Atoll-Keyodhoo-Shipwreck-Snorkelling-Emily-Mikus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    height: 300px;
+}
+
+.imgtext {
+    font-size: 1.5em;
+    font-weight: 900;
+    color:white
+
+}
+
+
+.imgtext:hover {
+    font-size: 1.6em;
+    font-weight: 900;
+    color: #ffd32a;
+    text-decoration: none;
+
+}
+
+
+
+.blogcovertext {
+    font-size: 2.5em;
+    font-weight: 900;
+    color:white
+}
+
+.blogline {
+    border: 2px solid #ffd32a;
+
+}
+
+.arrow{
+    color: #ffd32a;
+    background: transparent;
+    border: none;
+}
+
+.blogcovertext:hover {
+    font-weight: 900;
+    color: #ffd32a;
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: #ffd32a;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0.2em;
+    text-underline-offset: 10px;
+
+}
+
+
+
+.hovernav:hover {
+    color: #ffd32a;
+    text-decoration: underline;
+    text-decoration-color: #ffd32a;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0.2em;
+    text-underline-offset: 10px;
+
+}
+
+
+.crnt {
+    font-weight: 700;
+    color: #ffd32a;
+}
+
+.btncustom {
+    border-radius: 50px;
+    background-color: #ffd32a;
+    border: 2px solid #ffd32a;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.btncustom:hover {
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #ffd32a;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.btncustom2 {
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid #ffd32a;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 900;
+    font-size: 15px;
+;
+    
+}
+
+.btncustom2:hover {
+    border-radius: 50px;
+    background-color: #ffd32a;
+    border: 2px solid #ffd32a;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 900;
+    font-size: 15px
+}
+
+.btncustom3 {
+    border-radius: 50px;
+    background-color: #ffd32a;
+    border: 2px solid #ffd32a;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 900;
+    font-size: 15px;
+    
+}
+
+.btncustom3:hover {
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #ffd32a;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
+    font-size: 15px;
+}
+
+
+.bg-overlaybanner {
+    background: linear-gradient(rgba(0,0,0,.8), rgba(108,149,166,.4)), url(/images/shifaaz-shamoon-sLAk1guBG90-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: auto;
+    max-width: 100%;
+}
+
+.cardcustom {
+    color: #326F8A;
+    background-color: #EBF4F6;
+    font-size: 15px;
+    border: none;
+    -webkit-box-shadow: 5px 5px 18px 0px rgba(50,111,138,0.44);
+    -moz-box-shadow: 5px 5px 18px 0px rgba(50,111,138,0.44);
+    box-shadow: 5px 5px 18px 0px rgba(50,111,138,0.44);
+}
+
+.nosize {
+    width: 150px;
+    height: 100px;
+}
+
+.txt-1{
+    text-align: left;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 300;
+    margin: auto 10%;
+}
+
+.txt-2{
+    text-align: left;
+    color: #ffffff;
+    font-size: 3.5em;
+    font-weight: 900;
+    margin: auto 10%;
+    
+}
+
+.vertical-margin {
+    padding-top: 5%;
+    padding-bottom: 40px;
+}
+
+.bpadding {
+    padding-bottom: 5%;
+   
+}
+
+
+.formbox {
+    background-color: #ebf4f6;
+    color: #326F8A;
+    border: 1px solid #326F8A;
+    font-size: 15px;
+}
+
+
+.custom-box select {
+    background-color: #ebf4f6;
+    color: #326F8A;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #326F8A;
+    font-size: 15px;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+
+.custom-box select option {
+    padding: 30px;
+  }
+
+
+.h-main {
+    font-weight: 900;
+    font-size: 1.5em;
+    color: black;
+}
+
+
+.h-lword{
+    color: #ffd32a;
+    
+}
+
+.h-jumbo {
+    font-weight: 900;
+    font-size: 6em;
+    line-height: 1em;
+}
+
+.jumbotext {
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+
+.line90 {
+    transform: rotate(90deg);
+    border: 2px solid #ffd32a;
+}
+
+
+/* Footer */
+.sicon {
+    margin-left: 30px;
+    font-size: 30px;
+    color: #707070;
+}
+
+.ftext {
+    color: white;
+    font-weight: 300;
+}
+
+
+.btnrbn {
+    background-color: #EBF4F6;
+    height: 75px;
+}
+
+.ft-main {
+    background-color: #326F8A;
+}
+
+.clink {
+    color: white;
+}
+
+.phone {
+    display: inline;
+    font-family: 'roboto';
+    font-weight: 300;
+}
+
+.fheader {
+    font-size: 1em;
+    color: white;
+    font-weight: 700;
+}
+
+
+.hrline {
+    border-color: white;
+    border: 1px solid white;
+    margin-top: -10px;
+}
+
+.fsecondary {
+    background-color: #193845;
+    height: 60px;
+
+}

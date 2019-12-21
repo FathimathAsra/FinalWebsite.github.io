@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" viewBox="0 0 110 110">
+  <g id="Group_41" data-name="Group 41" transform="translate(-916 -1414)">
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(916 1414)" fill="#fff" stroke="#326f8a" stroke-width="3">
+      <circle cx="55" cy="55" r="55" stroke="none"/>
+      <circle cx="55" cy="55" r="53.5" fill="none"/>
+    </g>
+    <path id="Icon_awesome-long-arrow-alt-down" data-name="Icon awesome-long-arrow-alt-down" d="M17.281,35.761V3.531A1.281,1.281,0,0,0,16,2.25H10.023A1.281,1.281,0,0,0,8.742,3.531v32.23H3.825a2.562,2.562,0,0,0-1.812,4.373L11.2,49.321a2.562,2.562,0,0,0,3.623,0l9.186-9.186A2.562,2.562,0,0,0,22.2,35.761H17.281Z" transform="translate(957.742 1442.75)" fill="#326f8a" opacity="0.61"/>
+  </g>
+</svg>

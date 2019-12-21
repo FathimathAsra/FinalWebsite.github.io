@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="74" viewBox="0 0 75 74">
+  <g id="Group_2" data-name="Group 2" transform="translate(0 -0.319)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(0 0.319)" fill="rgba(255,255,255,0)" stroke="#ffd32a" stroke-width="3">
+      <ellipse cx="37.5" cy="37" rx="37.5" ry="37" stroke="none"/>
+      <ellipse cx="37.5" cy="37" rx="36" ry="35.5" fill="none"/>
+    </g>
+    <text id="_1" data-name="1" transform="translate(29 48.319)" fill="#ffd32a" font-size="28" font-family="RobotoMono-Bold, Roboto Mono" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+  </g>
+</svg>

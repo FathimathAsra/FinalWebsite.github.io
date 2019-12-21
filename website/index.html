@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DvTours</title>
+
+    <!-- stylesheets bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" class="rel">
+
+    <!-- own stylesheet-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href= "/style.css">
+   
+
+</head>
+
+    
+     
+<body>
+        
+    <section class="bg-overlay">
+        <!-- nevigation bar-->
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row navbar">
+                    <div class="col-md-2">
+                            <a href="#"><img src="images/DvTours-color.svg" width="100px" height="100px"></a>
+                        
+                    </div>
+                    <div class="col-md-10">
+                        <nav class="nav d-flex justify-content-end align-items-center">
+                            <a href="index.html" class="nav-link nvtxt crnt hovernav">HOME</a>
+                            <a href="tours.html" class="nav-link nvtxt hovernav">TOURS & ACTIVITIES</a>
+                            <a href="destinations.html" class="nav-link nvtxt hovernav">POPULAR DESTINATIONS</a>
+                            <a href="aboutus.html" class="nav-link nvtxt hovernav">ABOUT US</a>
+                            <a href="blog.html" class="nav-link nvtxt hovernav">BLOG</a>
+                        </nav>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="container d-flex vertical-margin">
+            <div class="col-md-9">
+                <p class="txt-1">
+                    For the best experience of your life
+                </p>
+    
+                <p class="txt-2">
+                    LET US TAKE <br> YOU ON A <span class="h-lword">JOURNEY</span>
+                </p>
+            </div>          
+            <div class="col-md-3 d-flex flex-column justify-content-center">
+                    <a href="#"><i class="fab fa-facebook hover mb-4 csicon"></i></a>
+                    <a href="#"><i class="fab fa-instagram hover mb-4 csicon"></i></a>
+                    <a href="#"><i class="fas fa-long-arrow-alt-down hover csicon"></i></a>
+            </div>
+        </div>
+
+        <div class="container pt-5 bpadding">
+            <div class="row">
+                <div class="col-md-4 d-flex">
+                    <img src="images/Group 51.svg">
+                    <p class="flex-column ml-3 align-self-center">Pick a destination that you want to visit and enjoy</p>
+                </div>
+                <div class="col-md-4 d-flex ">
+                    <img src="images/Group 52.svg">
+                    <p class="flex-column ml-3 align-self-center">Choose a date to visit</p>
+                </div>
+                <div class="col-md-4 d-flex ">
+                    <img src="images/Group 4.svg">
+                    <p class="flex-column ml-3 align-self-center">Let us take care of the rest, and let you enjoy your holiday heartily</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Quick Availability Checker Form-->
+    <div class="container-fluid fluidbg">
+        <div class="container">
+                <div class="row">
+                    <div class="col pt-5">
+                        <h2 class="h-main">BOOK YOUR <span class="h-lword">TOUR</span></h2>
+                    </div>
+                </div>
+                <form action="get" class="form-inline">
+                    <div class="row">
+                        <div class="col-md-3 custom-box form-group">
+                            <label for="inlineFormCustomSelect" class="mt-3">Destinations / Tours</label>
+                            <select id="inlineFormCustomSelect" class="mt-3 form-control">
+                                <option selected>Surfing or Parasailing</option>
+                                <option value="1">Scuba Diving</option>
+                                <option value="2">Night Fishing</option>
+                                <option value="3">Surfing</option>
+                                <option value="4">Swimming with sharks</option>
+                                <option value="5">Jet skiing</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 form-group custom-box">
+                                <label for="datePicker" class="mt-3">From</label>
+                                <input type="date" class="mt-3 form-control formbox" id="datePicker" >
+                        </div>
+                        <div class="col-md-2 form-group custom-box">
+                            <label for="datePicker" class="mt-3">To</label>
+                            <input type="date" class="mt-3 form-control formbox" id="datePicker">
+                        </div>
+                        <div class="col-md-4 form-group custom-box">
+                            <label for="memberCounter" class="mt-3">How many members</label>
+                            <input type="number" class="mt-3 form-control formbox" id="memberCounter" >
+                        </div>
+                    </div>
+                </form>
+
+                <div class="row">
+                    <div class="col mt-3">
+                        <button type="button" class="btn btn-primary mt-4 btncustom px-5 py-2" onclick="location.href='/tours.html'">ADD ANOTHER TOUR</button>
+
+                        <button type="button" class="btn btn-primary ml-4 mt-4 btncustom2 px-5 py-2" data-toggle="modal" data-target="#exampleModal">CHECK FOR AVAILABILITY</button>
+                    </div>
+                </div>
+                
+            
+        </div>
+    </div>
+
+    <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title modalh" id="exampleModalLabel">CONGRATULATIONS</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <P><span class="modalspan">CONGRATULATIONS</span> <br>The date that you have picked is available. You will now be directed to a page to fill in your personal details so that we can take good care of you. Enjoy your stay with us</P>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btncustom" data-dismiss="modal">CLOSE</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+    <!--Popular destinations Carousel-->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h2 class="h-main">POPULAR <span class="h-lword">DESTINATIONS</span></h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col imgcustom1 mt-4 mb-5 mr-3 ml-3 d-flex justify-content-center">
+                <a href="#" class="align-self-center  imgtext"><p>SHIPWRECK AT KEYODHOO ISLAND</p></a>
+            </div>
+            <div class="col imgcustom2  mt-4 mb-5 mr-3 ml-3 d-flex justify-content-center">
+                <a href="#" class="align-self-center imgtext"><p >ISLAND HOPPING TOUR</p></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col imgcustom3 mt-4 mb-5 mr-3 ml-3 d-flex justify-content-center">
+                <a href="#" class="align-self-center  imgtext"><p>UNESCO HISTORICAL HERITAGE SITES</p></a>
+            </div>
+            <div class="col imgcustom4  mt-4 mb-5 mr-3 ml-3 d-flex justify-content-center">
+                <a href="#" class="align-self-center imgtext"><p >BANANA REEF</p></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col mt-3 mb-5 d-flex justify-content-center ">
+                <button type="button" class="btn btn-primary mt- btncustom px-5 py-2" onclick="location.href='/destinations.html'">LOAD MORE DESTINATIONS</button>
+            </div>
+        </div>
+
+    </div>
+    
+    <!--How Does this work Jumbotron-->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h2 class="h-main">HOW DOES THIS <span class="h-lword">WORK</span></h2>
+            </div>
+        </div>
+
+        <div class="row mt-3 mb-5">
+            <div class="col-md-4">
+                <div class="card d-flex">
+                    <div class="card-body d-inline-flex justify-content-center cardcustom">
+                        <img src="images/card1.svg" class="pr-3 align-self-center nosize">
+                        <p class="align-self-center">Search through our destinations and tours lists and select a suitable place or tour for you and your family</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card d-flex">
+                    <div class="card-body d-inline-flex justify-content-center cardcustom">
+                        <img src="images/card2.svg" class="pr-3 align-self-center nosize">
+                        <p class="align-self-center">Pick a date and time for your arrival or pick your own tour with a personalized schedule of your own</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card d-flex">
+                    <div class="card-body d-inline-flex justify-content-center cardcustom">
+                        <img src="images/card3.svg" class="pr-3 align-self-center nosize">
+                        <p class="align-self-center">As soon as we receive the request, our team will work with you to make your stay as pleasant as it can be</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Why Choose us Banner-->
+    <div class="container-fluid bg-overlaybanner">
+        <div class="container py-5 d-flex">
+            <div class="col-md-5 d-inline-flex mt-5"> <p class="h-jumbo">WHY CHOOSE <span class="h-lword">US</span></p> </div>
+            <div class="col-md-7 d-inline-flex flex-column mt-5">
+                <p class="jumbotext">Cause we offer the best value for your money, and give you a personalized experience like no other service. We have dedicated guides working round the clock to help you spend the best time of your life in the sunny side and paradise on Earth, The Maldives.</p>
+
+                <div class="mt-3 mb-5 justify-content-center ">
+                    <button type="button" class="btn btn-primary mt- btncustom3 px-5 py-2" onclick="location.href='/aboutus.html'">READ MORE ABOUT US</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!--Our Partners jumbotron-->
+    <div class="container-fluid">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <h2 class="h-main">OUR <span class="h-lword">PARTNERS</span></h2>
+                </div>
+            </div>
+    
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="jumbotron d-flex d-inline-flex cardcustom pt-5 pb-4">
+                        <div class="col-md-1"><hr class="line90"></div>
+                        <div class="c0l-md-11"><p>We have partnered with some of the best service providers across the country to give you the best experience and great discount rates, so you wouldn't need to break the bank to visit and enjoy your stay at Maldives</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col d-flex justify-content-between mb-5">
+                    <img src="/images/logos/5bd330e053e215.28943013.svg" width="150px" height="150px">
+                    <img src="/images/logos/shangrila_en.b05a254.svg" width="150px" height="150px">
+                    <img src="/images/logos/Group 27.svg" width="150px" height="150px">
+                    <img src="/images/logos/laamu-footer.svg" width="150px" height="150px">
+                </div>
+             
+            </div>
+        </div>
+        
+    </div>
+
+    
+
+    <!--Footer-->
+    <footer
+    >
+        <!--Contact Us Button Ribbon-->
+        <div class="container-fluid btnrbn">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 mt-4"></div>
+                    <div class="col-md-2 mt-4">
+                        <h2 class="h-main text-left">CONTACT <span class="h-lword">US</span></h2>
+                    </div>
+    
+                    <div class="col-md-4 mt-4">
+                            <a href="#"><i class="fab fa-facebook sicon hover"></i></a>
+                            <a href="#"><i class="fab fa-instagram sicon hover"></i></a>
+                            <a href="#"><i class="fab fa-facebook-messenger sicon hover"></i></a>
+                            <a href="#"><i class="fab fa-viber sicon hover"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp sicon hover"></i></a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer Main-->
+        <div class="container-fluid ft-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="images/DvTours.svg" width="150px" height="150px">
+                    </div>
+                </div>
+
+                <div class="row pb-5">
+                    <div class="col-md-4">
+                        <address>
+                            <p class="ftext">
+                                Green Park Complex, 25th Avenue,
+                                <br>Majeedhee Magu, Male',
+                                <br>Republic of Maldives
+                            </p>
+                        </address>
+
+                        <div class="container pb-2">
+                            <a href="#" class="ftext hover"><i class="fas fa-phone-alt"><p class="phone ml-3">+960 999567</p></i></a>
+                        </div>
+                        <div class="container pb-2">
+                            <a href="#" class="ftext hover"><i class="fas fa-fax"><p class="phone ml-3">+960 999687</p></i></a>
+                        </div>
+                        <div class="container pb-2">
+                            <a href="#" class="ftext hover"><i class="fas fa-at"><p class="phone ml-3">info@dvtours.mv</p></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <nav class="nav flex-column">
+                            <a href="index.html" class="nav-link nvtxt crnt hover">HOME</a>
+                            <a href="tours.html" class="nav-link nvtxt hover">TOURS & ACTIVITIES</a>
+                            <a href="destinations.html" class="nav-link nvtxt hover">POPULAR DESTINATIONS</a>
+                            <a href="aboutus.html" class="nav-link nvtxt hover">ABOUT US</a>
+                            <a href="blog.html" class="nav-link nvtxt hover">BLOG</a>
+                        </nav>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="fheader">BLOG POSTS</h3>
+                        <a href="#"><p class="ftext hover">5 Historical sites in Male' to visit</p></a><hr class="hrline">
+                        <a href="#"><p class="ftext hover">Top 10 dive sites in Maldives</p></a><hr class="hrline">
+                        <a href="#"><p class="ftext hover">Best resorts for budget travels</p></a><hr class="hrline">
+                        <a href="#"><p class="ftext hover">More currency exchange places</p></a><hr class="hrline">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Secondary-->
+        <div class="container-fluid fsecondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mt-3">
+                        <p class="ftext">Copyright &copy; 2019</p>
+                    </div>
+                    <div class="col-md-9 mt-3">
+                        <p class="d-flex justify-content-end">
+                        <a href="#" class="ftext ml-4 hover">Sitemap</a>
+                        <a href="#" class="ftext ml-4 hover">Terms & Conditions</a>
+                        <a href="#" class="ftext ml-4 hover">Exchange Rates</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
