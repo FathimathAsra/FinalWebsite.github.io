@@ -10,7 +10,7 @@ This is a 2nd year semester website for introduction to web technologies module.
 
 
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/Screenshot_2019-12-23 DvTours(1).png "AboutUs")
+![alt text](images/Screenshot_2019-12-23 DvTours(1).png "AboutUs")
 
 Reference-style: 
 ![alt text][AboutUs]
