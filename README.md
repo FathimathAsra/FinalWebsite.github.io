@@ -8,25 +8,3 @@ This is a 2nd year semester website for introduction to web technologies module.
 ![alt text](images/Screenshot_2019-12-23 DvTours.jpg "HomePage")
 ![alt text](images/Screenshot_2019-12-23 DvTours.png " disclaimer form")
 
-
-Inline-style: 
-![alt text](images/Screenshot_2019-12-23 DvTours(1).png "AboutUs")
-
-Reference-style: 
-![alt text][AboutUs]
-
-Inline-style: 
-![alt text](https://github.com/FAthimathAsra/markdown-here/raw/master/src/common/images/Screenshot_2019-12-23 DvTours(1).png "AboutUs")
-
-Reference-style: 
-![alt text][AboutUs]
-
-Here's our logo (hover to see the title text):
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
